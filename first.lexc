@@ -1,0 +1,39 @@
+Multichar_Symbols
++V +meOne +Y +We +Ys +They
+
+! Lexicon containing lexical stems:
+LEXICON Root
+ parl V ;
+ mang V ;
+ cherch V ;
+ fromage N ;
+ frite N;
+ vino N;
+ pant N;
+ viande N;
+ plato N;
+ lapin N;
+ fourchette N;
+ pomme N;
+ voiture N;
+
+
+! Lexicon containing POS tag only:
+LEXICON V
++V: V-suff ;
+
+LEXICON N
++N: N-suff ;
+
+! Lexicon containing inflectional suffixes and corresponding tags:
+LEXICON V-suff
++meOne:e   # ;
++Y:es  # ;
++We:ons # ;
++Ys:ez    # ;
++They:ent  # ;
++None:  # ;
+
+LEXICON N-suff
++Plrl:s # ;
++Sngl: # ;
